@@ -4,18 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-/*
-Задание 15
-Добавим определение победителя.
-В классе Hippodrome сделаем два метода:
-public Horse getWinner() и public void printWinner()
-Метод getWinner должен возвращать лошадь пробежавшую самую большую дистанцию.
-Метод printWinner выводит на экран имя победителя в виде:
-Winner is <NAME>!
-Пример:
-Winner is Lucky!
- */
-
 public class Hippodrome {
 
     private ArrayList<Horse> horses = new ArrayList<>();
