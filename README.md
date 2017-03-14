@@ -5,6 +5,22 @@ Tasks that i found on my way to become a good programmer and my solutions to the
 
 
 ![software development](http://media.gettyimages.com/videos/software-development-video-id529023066?s=640x640)
----
+-----
 
-## Table of Contents
+## Table of Descriptions
+
+* [Archiver](#archiver)
+* [Big tasks](#big-tasks)
+* [Valuable classes](#valuable-classes)
+  
+-----
+### Archiver
+    My implementation of console archiver based on javarush task 
+-----
+### Big tasks
+    Big tasks solutions from javarush
+-----
+### Valuable classes
+    Classes that i found interesting and useful during my studying process
+
+  
