@@ -29,3 +29,4 @@ Big tasks solutions from javarush
 Classes that i found interesting and useful during my studying process
     
   * selectexecutor - abstract database usage, creation of new instance of T (generic type) class by using its default constructor
+  * chains of responsibility - pattern example about logging information in accordance with the responsibilities
