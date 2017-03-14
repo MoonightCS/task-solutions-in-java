@@ -15,12 +15,17 @@ Tasks that i found on my way to become a good programmer and my solutions to the
   
 -----
 ### Archiver
-    My implementation of console archiver based on javarush task 
+
+My implementation of console archiver based on javarush task 
+
 -----
 ### Big tasks
-    Big tasks solutions from javarush
+
+Big tasks solutions from javarush
+
 -----
 ### Valuable classes
-    Classes that i found interesting and useful during my studying process
 
-  
+Classes that i found interesting and useful during my studying process
+    
+  * selectexecutor - abstract database usage, creation of new instance of T (generic type) class by using its default constructor
