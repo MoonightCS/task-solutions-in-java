@@ -37,13 +37,20 @@ public class SpecifiedNumber {
 
     public static void main(String[] args) {
         SpecifiedNumber specifiedNumber = new SpecifiedNumber();
-        specifiedNumber.createExpression(1234);
+        for (int i = 1; i < 3000; i++) {
+            specifiedNumber.createExpression(i);
+            specifiedNumber.expression.clear();
+            System.out.println();
+        }
     }
 
     private void createExpression(int number) {
 
         List<Integer> numbers = new ArrayList<>(Arrays.asList(1, 3, 9, 27, 81, 243, 729, 2187));
         findExpression(number, 0, 0, numbers, new Stack<>());
+        if (expression.isEmpty()) {
+            System.out.println("There is no answer! :(");
+        }
         Collections.reverse(expression);
         System.out.print(number + " =");
         for (int i = 0; i < expression.size(); i++) {
