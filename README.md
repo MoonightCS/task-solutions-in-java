@@ -12,6 +12,7 @@ Tasks that i found on my way to become a good programmer and my solutions to the
 * [Archiver](#archiver)
 * [Big tasks](#big-tasks)
 * [Valuable classes](#valuable-classes)
+* [Interesting tasks](#interesting_tasks)
   
 -----
 ### Archiver
@@ -30,3 +31,10 @@ Classes that i found interesting and useful during my studying process
     
   * selectexecutor - abstract database usage, creation of new instance of T (generic type) class by using its default constructor
   * chains of responsibility - pattern example about logging information in accordance with the responsibilities
+  
+-----
+### Interesting tasks
+
+Tasks that i found in the internet and my solutions for them
+
+  * SpecifiedNumber - find the specified number with different permutations of the given numbers. They can be either positive or negative and occur only once. 
