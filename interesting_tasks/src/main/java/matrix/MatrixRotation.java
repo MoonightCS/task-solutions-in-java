@@ -7,7 +7,6 @@ public class MatrixRotation {
         fillMatrix(arr);
         printArray(arr);
         counterClockwiseRotate(arr);
-        clockwiseRotate(arr);
         printArray(arr);
     }
 
@@ -15,7 +14,6 @@ public class MatrixRotation {
         int len = arr.length;
         for (int i = 0; i < len / 2; i++) {
             for (int j = i; j < len - 1 - i; j++) {
-                // меняем местами 4 угла
                 int tmp = arr[i][j];
                 arr[i][j] = arr[j][len - 1 - i];
                 arr[j][len - 1 - i] = arr[len - 1 - i][len - 1 - j];
@@ -26,7 +24,6 @@ public class MatrixRotation {
     }
 
     private static void clockwiseRotate(int[][] arr) {
-
         int len = arr.length;
         for (int i = 0; i < len / 2; i++) {
             for (int j = len - 1 - i; j > i; j--) {
@@ -37,7 +34,6 @@ public class MatrixRotation {
                 arr[j][len - 1 - i] = tmp;
             }
         }
-
     }
 
 
