@@ -38,7 +38,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>manager.Archiver</mainClass>
+                            <mainClass>ru.popov.bodya.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
