@@ -29,7 +29,7 @@ public class MatrixRotation {
             for (int j = len - 1 - i; j > i; j--) {
                 int tmp = arr[i][j];
                 arr[i][j] = arr[len - 1 - j][i];
-                arr[len - 1 - j][i] = arr[len - i - 1][len  - 1 - j];
+                arr[len - 1 - j][i] = arr[len - i - 1][len - 1 - j];
                 arr[len - 1 - i][len - 1 - j] = arr[j][len - 1 - i];
                 arr[j][len - 1 - i] = tmp;
             }
